@@ -1,0 +1,14 @@
+CRITICAL - 2020-10-30 00:20:50 --> Table 'sekolah.mKopentensiKhusus' doesn't exist
+#0 /home/gugus/Desktop/ci4/ci4_master/system/Database/MySQLi/Connection.php(330): mysqli->query()
+#1 /home/gugus/Desktop/ci4/ci4_master/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/gugus/Desktop/ci4/ci4_master/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/gugus/Desktop/ci4/ci4_master/app/Commands/ControlerBasic.php(37): CodeIgniter\Database\BaseConnection->query()
+#4 /home/gugus/Desktop/ci4/ci4_master/system/CLI/CommandRunner.php(137): App\Commands\ControlerBasic->run()
+#5 /home/gugus/Desktop/ci4/ci4_master/system/CLI/CommandRunner.php(110): CodeIgniter\CLI\CommandRunner->runCommand()
+#6 /home/gugus/Desktop/ci4/ci4_master/system/CLI/CommandRunner.php(86): CodeIgniter\CLI\CommandRunner->index()
+#7 /home/gugus/Desktop/ci4/ci4_master/system/CodeIgniter.php(906): CodeIgniter\CLI\CommandRunner->_remap()
+#8 /home/gugus/Desktop/ci4/ci4_master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#9 /home/gugus/Desktop/ci4/ci4_master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/gugus/Desktop/ci4/ci4_master/system/CLI/Console.php(86): CodeIgniter\CodeIgniter->run()
+#11 /home/gugus/Desktop/ci4/ci4_master/spark(57): CodeIgniter\CLI\Console->run()
+#12 {main}

@@ -1,0 +1,14 @@
+CRITICAL - 2020-10-27 02:01:05 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::withCookies()
+#0 C:\Users\USER\Desktop\project\ci4_master\system\CodeIgniter.php(910): Myth\Auth\Controllers\AuthController->attemptLogin()
+#1 C:\Users\USER\Desktop\project\ci4_master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#2 C:\Users\USER\Desktop\project\ci4_master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Desktop\project\ci4_master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\USER\Desktop\project\ci4_master\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\USER\\D...')
+#5 {main}
+CRITICAL - 2020-10-27 02:01:42 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::withCookies()
+#0 C:\Users\USER\Desktop\project\ci4_master\system\CodeIgniter.php(910): Myth\Auth\Controllers\AuthController->attemptLogin()
+#1 C:\Users\USER\Desktop\project\ci4_master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#2 C:\Users\USER\Desktop\project\ci4_master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\USER\Desktop\project\ci4_master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\USER\Desktop\project\ci4_master\system\Commands\Server\rewrite.php(34): require_once('C:\\Users\\USER\\D...')
+#5 {main}

@@ -1,0 +1,312 @@
+CRITICAL - 2020-10-11 02:22:07 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-11 02:24:46 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-11 02:26:38 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-11 02:29:32 --> Table 'ci4_auth.users' doesn't exist
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/MySQLi/Connection.php(330): mysqli->query()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Model.php(482): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/app/ThirdParty/myth-auth/src/Authentication/LocalAuthenticator.php(156): CodeIgniter\Model->first()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/app/ThirdParty/myth-auth/src/Authentication/LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/app/ThirdParty/myth-auth/src/Controllers/AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): Myth\Auth\Controllers\AuthController->attemptLogin()
+#9 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#10 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#13 {main}
+CRITICAL - 2020-10-11 02:29:55 --> Table 'ci4_auth.users' doesn't exist
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/MySQLi/Connection.php(330): mysqli->query()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Model.php(482): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/app/ThirdParty/myth-auth/src/Authentication/LocalAuthenticator.php(156): CodeIgniter\Model->first()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/app/ThirdParty/myth-auth/src/Authentication/LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/app/ThirdParty/myth-auth/src/Controllers/AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): Myth\Auth\Controllers\AuthController->attemptLogin()
+#9 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#10 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#13 {main}
+CRITICAL - 2020-10-11 02:31:15 --> Table 'ci4_auth.users' doesn't exist
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/MySQLi/Connection.php(330): mysqli->query()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Model.php(482): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/app/ThirdParty/myth-auth/src/Authentication/LocalAuthenticator.php(156): CodeIgniter\Model->first()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/app/ThirdParty/myth-auth/src/Authentication/LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/app/ThirdParty/myth-auth/src/Controllers/AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): Myth\Auth\Controllers\AuthController->attemptLogin()
+#9 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#10 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#12 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#13 {main}
+CRITICAL - 2020-10-11 02:57:09 --> Class 'App\Controller\BaseController' not found
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Autoloader/Autoloader.php(365): require_once()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#4 [internal function]: spl_autoload_call()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(861): class_exists()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#10 {main}
+CRITICAL - 2020-10-11 02:58:00 --> Class 'App\Controller\BaseController' not found
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Autoloader/Autoloader.php(365): require_once()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#4 [internal function]: spl_autoload_call()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(861): class_exists()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#10 {main}
+CRITICAL - 2020-10-11 03:02:13 --> View themes, no current section.
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Views/mAgama/index.php(3): CodeIgniter\View\View->endSection()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/View/View.php(236): include('/home/gugus/Des...')
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Common.php(1071): CodeIgniter\View\View->render()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Controllers/MAgama.php(14): view()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#9 {main}
+CRITICAL - 2020-10-11 03:03:33 --> View themes, no current section.
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Views/mAgama/index.php(9): CodeIgniter\View\View->endSection()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/View/View.php(236): include('/home/gugus/Des...')
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Common.php(1071): CodeIgniter\View\View->render()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Controllers/MAgama.php(14): view()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#9 {main}
+CRITICAL - 2020-10-11 03:14:19 --> Undefined property: App\Controllers\MAgama::$db
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Controllers/MAgama.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#6 {main}
+CRITICAL - 2020-10-11 03:24:24 --> Undefined variable: db
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Controllers/MAgama.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#6 {main}
+CRITICAL - 2020-10-11 03:44:23 --> Call to undefined function App\Controllers\connect()
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(882): App\Controllers\MAgama->__construct()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#5 {main}
+CRITICAL - 2020-10-11 03:45:55 --> Class 'App\Controllers\Database' not found
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(882): App\Controllers\MAgama->__construct()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#5 {main}
+CRITICAL - 2020-10-11 03:46:13 --> Class 'App\Controllers\App\Config\Database' not found
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(882): App\Controllers\MAgama->__construct()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#5 {main}
+CRITICAL - 2020-10-11 03:46:24 --> Class 'App\Controllers\App\Config\Database' not found
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(882): App\Controllers\MAgama->__construct()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#5 {main}
+CRITICAL - 2020-10-11 03:47:32 --> Class 'App\Controllers\Config\Database' not found
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(882): App\Controllers\MAgama->__construct()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#5 {main}
+CRITICAL - 2020-10-11 03:58:59 --> syntax error, unexpected ')', expecting '['
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Common.php(1071): CodeIgniter\View\View->render()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Controllers/MAgama.php(21): view()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#7 {main}
+CRITICAL - 2020-10-11 03:59:13 --> Undefined property: mysqli::$kode
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Views/mAgama/index.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/View/View.php(236): include('/home/gugus/Des...')
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Common.php(1071): CodeIgniter\View\View->render()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Controllers/MAgama.php(21): view()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#9 {main}
+CRITICAL - 2020-10-11 03:59:56 --> Undefined property: mysqli::$kode
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Views/mAgama/index.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/View/View.php(236): include('/home/gugus/Des...')
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Common.php(1071): CodeIgniter\View\View->render()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Controllers/MAgama.php(21): view()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#9 {main}
+CRITICAL - 2020-10-11 04:01:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#5 {main}
+CRITICAL - 2020-10-11 04:02:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultObject()
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#5 {main}
+CRITICAL - 2020-10-11 04:02:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#5 {main}
+CRITICAL - 2020-10-11 04:30:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':kode, :nama)' at line 1
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/MySQLi/Connection.php(330): mysqli->query()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Controllers/MAgama.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#9 {main}
+CRITICAL - 2020-10-11 04:31:45 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(861): class_exists()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#9 {main}
+CRITICAL - 2020-10-11 04:32:17 --> Undefined index: data
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Controllers/MAgama.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#6 {main}
+CRITICAL - 2020-10-11 04:33:53 --> Unknown column 'coba' in 'field list'
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/MySQLi/Connection.php(330): mysqli->query()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Controllers/MAgama.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#9 {main}
+CRITICAL - 2020-10-11 04:42:25 --> Undefined variable: id
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Views/mAgama/index.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/View/View.php(236): include('/home/gugus/Des...')
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Common.php(1071): CodeIgniter\View\View->render()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Controllers/MAgama.php(35): view()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#9 {main}
+CRITICAL - 2020-10-11 04:42:52 --> Undefined variable: id
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Views/mAgama/index.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/View/View.php(236): include('/home/gugus/Des...')
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Common.php(1071): CodeIgniter\View\View->render()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/app/Controllers/MAgama.php(35): view()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#9 {main}
+CRITICAL - 2020-10-11 05:06:21 --> Too few arguments to function App\Controllers\MAgama::hapus(), 0 passed in /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php on line 910 and exactly 1 expected
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->hapus()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#5 {main}
+CRITICAL - 2020-10-11 05:08:50 --> Too few arguments to function App\Controllers\MAgama::hapus(), 0 passed in /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php on line 910 and exactly 1 expected
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->hapus()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#5 {main}
+CRITICAL - 2020-10-11 05:09:45 --> Too few arguments to function App\Controllers\MAgama::hapus(), 0 passed in /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php on line 910 and exactly 1 expected
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->hapus()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#5 {main}
+CRITICAL - 2020-10-11 05:10:21 --> Too few arguments to function App\Controllers\MAgama::hapus(), 0 passed in /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php on line 910 and exactly 1 expected
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->hapus()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#5 {main}
+CRITICAL - 2020-10-11 05:27:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowResultObject()
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(910): App\Controllers\MAgama->Index()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#2 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#5 {main}
+CRITICAL - 2020-10-11 05:28:27 --> syntax error, unexpected '$type' (T_VARIABLE), expecting ')'
+#0 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(861): class_exists()
+#5 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 /home/gugus/Desktop/ci4/ci4_authentication-master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/gugus/Desktop/ci4/ci4_authentication-master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /home/gugus/Desktop/ci4/ci4_authentication-master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#9 {main}

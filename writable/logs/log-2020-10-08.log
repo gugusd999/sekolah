@@ -1,0 +1,24 @@
+CRITICAL - 2020-10-08 16:46:21 --> Undefined property: Config\Email::$fromEmail
+#0 D:\XAMPP\htdocs\ci4_authentication-master\app\ThirdParty\myth-auth\src\Authentication\Activators\EmailActivator.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\XAMPP\\htdocs...', 35, Array)
+#1 D:\XAMPP\htdocs\ci4_authentication-master\app\ThirdParty\myth-auth\src\Authentication\Activators\UserActivator.php(40): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#2 D:\XAMPP\htdocs\ci4_authentication-master\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(185): Myth\Auth\Authentication\Activators\UserActivator->send(Object(Myth\Auth\Entities\User))
+#3 D:\XAMPP\htdocs\ci4_authentication-master\system\CodeIgniter.php(910): Myth\Auth\Controllers\AuthController->attemptRegister()
+#4 D:\XAMPP\htdocs\ci4_authentication-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#5 D:\XAMPP\htdocs\ci4_authentication-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\XAMPP\htdocs\ci4_authentication-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\XAMPP\htdocs\ci4_authentication-master\system\Commands\Server\rewrite.php(34): require_once('D:\\XAMPP\\htdocs...')
+#8 {main}
+CRITICAL - 2020-10-08 16:50:54 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::withCookies()
+#0 D:\XAMPP\htdocs\ci4_authentication-master\system\CodeIgniter.php(910): Myth\Auth\Controllers\AuthController->attemptLogin()
+#1 D:\XAMPP\htdocs\ci4_authentication-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#2 D:\XAMPP\htdocs\ci4_authentication-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\ci4_authentication-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\XAMPP\htdocs\ci4_authentication-master\system\Commands\Server\rewrite.php(34): require_once('D:\\XAMPP\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-08 16:55:32 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::withCookies()
+#0 D:\XAMPP\htdocs\ci4_authentication-master\system\CodeIgniter.php(910): Myth\Auth\Controllers\AuthController->attemptLogin()
+#1 D:\XAMPP\htdocs\ci4_authentication-master\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#2 D:\XAMPP\htdocs\ci4_authentication-master\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\XAMPP\htdocs\ci4_authentication-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\XAMPP\htdocs\ci4_authentication-master\system\Commands\Server\rewrite.php(34): require_once('D:\\XAMPP\\htdocs...')
+#5 {main}

@@ -1,0 +1,12 @@
+CRITICAL - 2020-10-24 04:59:52 --> syntax error, unexpected 'getfile' (T_STRING), expecting '('
+#0 /home/gugus/Desktop/ci4/ci4_master/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /home/gugus/Desktop/ci4/ci4_master/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /home/gugus/Desktop/ci4/ci4_master/app/Controllers/BaseController.php(38): spl_autoload_call()
+#4 /home/gugus/Desktop/ci4/ci4_master/app/Controllers/Admin/MSekolah.php(101): App\Controllers\BaseController::form()
+#5 /home/gugus/Desktop/ci4/ci4_master/system/CodeIgniter.php(910): App\Controllers\Admin\MSekolah->prop()
+#6 /home/gugus/Desktop/ci4/ci4_master/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController()
+#7 /home/gugus/Desktop/ci4/ci4_master/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/gugus/Desktop/ci4/ci4_master/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /home/gugus/Desktop/ci4/ci4_master/system/Commands/Server/rewrite.php(34): require_once('/home/gugus/Des...')
+#10 {main}
